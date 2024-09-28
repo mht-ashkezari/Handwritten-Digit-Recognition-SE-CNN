@@ -67,7 +67,7 @@ You can install the required Python packages by running:
 
 ```bash
 pip install -r requirements.txt
-'''
+```
 
 
 ## Instructions
