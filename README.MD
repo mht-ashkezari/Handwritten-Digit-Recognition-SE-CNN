@@ -13,9 +13,6 @@ This project aims to enhance the accuracy and robustness of handwritten digit re
   - [Instructions](#instructions)
   - [Usage](#usage)
   - [Example](#example)
-- [Load EMNIST dataset](#load-emnist-dataset)
-- [Train the model](#train-the-model)
-- [Evaluate the model](#evaluate-the-model)
   - [Evaluation](#evaluation)
   - [Results](#results)
   - [Real-World Applications](#real-world-applications)
@@ -114,7 +111,7 @@ model = train_model(train_images, train_labels)
 
 # Evaluate the model
 evaluate_model(model, test_images, test_labels)
-
+```
 ## Evaluation
 
 After training, the model is evaluated using several metrics:
