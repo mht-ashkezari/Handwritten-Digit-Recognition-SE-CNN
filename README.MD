@@ -10,7 +10,6 @@ This project aims to enhance the accuracy and robustness of handwritten digit re
   - [Dataset](#dataset)
   - [Model Architecture](#model-architecture)
   - [Requirements](#requirements)
-- [CNN-SE Handwritten Digit Recognition](#cnn-se-handwritten-digit-recognition)
   - [Instructions](#instructions)
   - [Usage](#usage)
   - [Example](#example)
@@ -20,7 +19,6 @@ This project aims to enhance the accuracy and robustness of handwritten digit re
   - [Evaluation](#evaluation)
   - [Results](#results)
   - [Real-World Applications](#real-world-applications)
-  - [Contributing](#contributing)
   - [License](#license)
 
 ## Project Overview
@@ -69,8 +67,8 @@ You can install the required Python packages by running:
 
 ```bash
 pip install -r requirements.txt
+'''
 
-# CNN-SE Handwritten Digit Recognition
 
 ## Instructions
 
@@ -141,9 +139,7 @@ This model can be applied in various real-world scenarios, including:
 - **Digit Recognition**: Digitizing handwritten documents or financial records.
 - **Educational Tools**: Building applications that recognize student handwriting on exams or assignments.
 
-## Contributing
 
-Contributions are welcome! If you want to contribute to this project, please open an issue or submit a pull request.
 
 ## License
 
