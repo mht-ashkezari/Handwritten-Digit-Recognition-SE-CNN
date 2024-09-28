@@ -10,12 +10,7 @@ This project aims to enhance the accuracy and robustness of handwritten digit re
   - [Dataset](#dataset)
   - [Model Architecture](#model-architecture)
   - [Requirements](#requirements)
-  - [Instructions](#instructions)
-  - [Usage](#usage)
-  - [Example](#example)
   - [Evaluation](#evaluation)
-  - [Results](#results)
-  - [Real-World Applications](#real-world-applications)
   - [License](#license)
 
 ## Project Overview
@@ -60,82 +55,14 @@ To run this project, you need the following libraries installed:
 - OpenCV (for image processing)
 - Google Colab (optional for cloud-based training)
 
-You can install the required Python packages by running:
 
-```bash
-pip install -r requirements.txt
-```
-
-
-## Instructions
-
-1. **Clone this repository**:
-    ```bash
-    git clone https://github.com/yourusername/CNN-SE-Handwritten-Digit-Recognition.git
-    cd CNN-SE-Handwritten-Digit-Recognition
-    ```
-
-2. **Install the necessary dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **(Optional)** If you are using Google Colab, upload the project files to your Google Drive.
-
-## Usage
-
-1. **Prepare the Dataset**:  
-   Download the EMNIST dataset and place it in the appropriate directory (or load it directly in Colab).
-
-2. **Train the Model**:  
-   Run the training script to train the CNN with SE blocks:
-    ```bash
-    python train_model.py
-    ```
-
-3. **Evaluate the Model**:  
-   After training, evaluate the model using validation and test sets:
-    ```bash
-    python evaluate_model.py
-    ```
-
-## Example
-
-```python
-# Load EMNIST dataset
-train_images, train_labels = load_emnist_images('path_to_training_images')
-test_images, test_labels = load_emnist_labels('path_to_test_images')
-
-# Train the model
-model = train_model(train_images, train_labels)
-
-# Evaluate the model
-evaluate_model(model, test_images, test_labels)
-```
 ## Evaluation
 
 After training, the model is evaluated using several metrics:
 
 - **Accuracy**: Measures overall correctness of predictions.
 - **Precision, Recall, F1-Score**: Provides detailed class-by-class performance.
-- **Confusion Matrix**: Visualizes model performance by comparing predictions to true labels.
 - **ROC-AUC and Precision-Recall Curves**: Illustrates the model’s performance in distinguishing digit classes.
-
-## Results
-
-The model achieves perfect scores on both the validation and test sets. Key performance metrics:
-
-- **Precision, Recall, F1-Score**: 1.00 for all classes.
-- **ROC-AUC**: 1.00 across all digit classes.
-
-## Real-World Applications
-
-This model can be applied in various real-world scenarios, including:
-
-- **Postal Automation**: Automatically reading handwritten postal codes or addresses.
-- **Digit Recognition**: Digitizing handwritten documents or financial records.
-- **Educational Tools**: Building applications that recognize student handwriting on exams or assignments.
-
 
 
 ## License
